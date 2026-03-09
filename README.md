@@ -4,19 +4,28 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Status](https://img.shields.io/badge/Project-Active-success)
 
-# 🚀 Lead Flow CRM
 
-Lead Flow CRM is a MERN stack application designed to manage business leads, track customer interactions, and improve sales workflow efficiency.
+<h1 align="center">🚀 Lead Flow CRM</h1>
 
+<p align="center">
+A modern MERN stack CRM to manage leads, track customer interactions, and automate outreach.
+</p>
 
-# 📌 Features
+<p align="center">
+  <a href="https://github.com/Pratikkamble123/Lead-Flow-CRM">
+    <img src="https://img.shields.io/github/stars/Pratikkamble123/Lead-Flow-CRM?style=social">
+  </a>
+</p>
 
-* Lead Management Dashboard
-* Add / Edit / Delete Leads
-* Customer Tracking System
-* Authentication & Secure Login
-* Responsive UI for desktop and mobile
+## ✨ Features
 
+| Feature | Description |
+|--------|-------------|
+| 📊 Dashboard | Visual overview of leads and activities |
+| 👥 Lead Management | Add, edit, and manage customer leads |
+| 📧 AI Email Generator | Generate outreach emails automatically |
+| 🔐 Authentication | Secure login and user sessions |
+| 📱 Responsive UI | Works on desktop and mobile |
 
 # 🛠 Tech Stack
 
@@ -35,19 +44,25 @@ Database
 
 * MongoDB
 
-# 🖼 Project Screenshots
+## 🌐 Live Demo
 
-## Dashboard
+<p align="center">
+<a href="https://your-live-demo-link.com">
+<img src="https://img.shields.io/badge/Live%20Demo-View%20Project-green?style=for-the-badge">
+</a>
+</p>
 
-![Dashboard Screenshot](screenshots/dashboard.png)
 
-## Lead Management
+## 🖼 Project Screenshots
 
-![Leads Screenshot](screenshots/leads.png)
+<p align="center">
+  <img src="screenshots/dashboard.png" width="45%">
+  <img src="screenshots/leads.png" width="45%">
+</p>
 
-## Add Lead Form
-
-![Form Screenshot](screenshots/add-lead.png)
+<p align="center">
+  <img src="screenshots/add-lead.png" width="45%">
+</p>
 
 ## ⚙ Installation Guide
 
