@@ -11,10 +11,10 @@
 A modern MERN stack CRM to manage leads, track customer interactions, and automate outreach.
 </p>
 
+## 🎥 Application Demo
+
 <p align="center">
-  <a href="https://github.com/Pratikkamble123/Lead-Flow-CRM">
-    <img src="https://img.shields.io/github/stars/Pratikkamble123/Lead-Flow-CRM?style=social">
-  </a>
+  <img src="assets/demo.gif" width="900">
 </p>
 
 ## ✨ Features
