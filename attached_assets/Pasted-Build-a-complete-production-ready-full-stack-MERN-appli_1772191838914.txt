@@ -1,0 +1,285 @@
+Build a complete production-ready full-stack MERN application called:
+
+"Smart Business Automation System"
+
+This should be a SaaS-style business dashboard for small businesses to manage leads, tasks, and automated workflows.
+
+The project must be structured professionally with separate frontend and backend folders.
+
+====================================
+TECH STACK REQUIREMENTS
+
+Frontend:
+
+React.js (Vite or Create React App)
+
+Tailwind CSS for styling
+
+Axios for API calls
+
+React Router for routing
+
+Clean modern UI (minimal, professional)
+
+Backend:
+
+Node.js
+
+Express.js
+
+MongoDB with Mongoose
+
+JWT Authentication
+
+RESTful API structure
+
+Environment variables (.env support)
+
+====================================
+CORE FEATURES
+
+Authentication System
+
+User registration
+
+User login
+
+Password hashing using bcrypt
+
+JWT-based authentication
+
+Protected routes
+
+Logout functionality
+
+Dashboard Overview Page
+
+Display total leads
+
+Display converted leads
+
+Display pending leads
+
+Display total tasks
+
+Use clean dashboard cards UI
+
+Lead Management System
+Users should be able to:
+
+Add new lead (Name, Email, Phone, Source, Status, Notes)
+
+Edit lead
+
+Delete lead
+
+Change lead status:
+
+New
+
+Contacted
+
+Converted
+
+Lost
+
+Automation Logic
+
+When lead status changes to "Converted"
+→ Automatically create a follow-up task
+
+When lead is "New"
+→ Automatically set follow-up reminder in 2 days
+Implement this logic in backend controller.
+
+Task Management System
+Users can:
+
+View tasks
+
+Mark task as completed
+
+Delete task
+
+Tasks linked to leads
+
+Simple AI Email Generator Feature
+Add a section where user enters:
+
+Lead name
+
+Business type
+
+Goal
+
+Generate a professional follow-up email template automatically.
+
+You can simulate AI response using predefined logic if API not connected.
+Structure code so OpenAI API can be easily integrated later.
+
+====================================
+DATABASE MODELS
+
+User Model:
+
+name
+
+email
+
+password
+
+createdAt
+
+Lead Model:
+
+userId (reference)
+
+name
+
+email
+
+phone
+
+source
+
+status
+
+notes
+
+createdAt
+
+Task Model:
+
+userId (reference)
+
+leadId (reference)
+
+title
+
+dueDate
+
+completed (boolean)
+
+createdAt
+
+====================================
+UI REQUIREMENTS
+
+Modern sidebar navigation
+
+Dashboard layout
+
+Clean typography
+
+Responsive design
+
+Loading states
+
+Error handling alerts
+
+Professional SaaS feel
+
+Light professional theme (not childish)
+
+Pages Required:
+
+Login
+
+Register
+
+Dashboard
+
+Leads Page
+
+Tasks Page
+
+AI Email Generator Page
+
+404 Page
+
+====================================
+CODE QUALITY REQUIREMENTS
+
+Modular folder structure
+
+Controllers separated from routes
+
+Middleware for auth
+
+Proper error handling
+
+Clean readable code
+
+Add comments for important logic
+
+Follow best practices
+
+====================================
+BONUS FEATURES (IF POSSIBLE)
+
+Search & filter leads
+
+Status badge colors
+
+Confirmation modal before delete
+
+Basic pagination for leads
+
+====================================
+DEPLOYMENT READY
+
+Include .env example file
+
+Proper MongoDB connection setup
+
+CORS configuration
+
+Ready for deployment on:
+
+Render (backend)
+
+Vercel (frontend)
+
+====================================
+
+After building the project:
+
+Provide:
+
+Folder structure overview
+
+Instructions to run locally
+
+How to connect MongoDB
+
+Where to integrate OpenAI API later
+
+Ensure the final project looks like a real SaaS product that can be sold to clients.
+
+💰 What This Gives You
+
+After this builds:
+
+You now have:
+
+Real authentication system
+
+Real automation logic
+
+Real dashboard
+
+Real SaaS feel
+
+You can sell:
+
+Basic ($80)
+
+Lead management only
+
+Standard ($150)
+
+Lead + tasks + automation
+
+Premium ($250)
+
+Custom + AI integration
