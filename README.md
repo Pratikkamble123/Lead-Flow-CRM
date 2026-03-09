@@ -14,7 +14,7 @@ A modern MERN stack CRM to manage leads, track customer interactions, and automa
 ## 🎥 Application Demo
 
 <p align="center">
-  <img src="assets/demo.gif" width="900">
+  <img src="assets/demo.gif" width="600">
 </p>
 
 ## ✨ Features
