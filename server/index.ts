@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import express from "express";
+import express, { type Request, Response, NextFunction } from "express";
 import { pool } from "./db";
 
 import { registerRoutes } from "./routes";
