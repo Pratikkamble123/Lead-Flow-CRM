@@ -103,5 +103,5 @@ httpServer.listen(
   },
   () => {
     log(`serving on port ${port}`);
-  },
+  }
 );
